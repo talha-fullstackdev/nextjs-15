@@ -1,7 +1,7 @@
 import React from 'react'
 const About = () => {
   return (
-    <div>welcome to about page</div>
+    <div className='text-red-500'>welcome to about page</div>
   )
 }
 
