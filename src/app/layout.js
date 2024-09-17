@@ -23,6 +23,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* here anything we do it will apply on all components pages in our app layout.js is a root file */}
+        {/* <h1>Talha Nawaz Here</h1> */}
         {children}
       </body>
     </html>
