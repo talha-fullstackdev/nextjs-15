@@ -21,3 +21,9 @@ const ImageOptimization = () => {
 };
 
 export default ImageOptimization;
+export function generateMetadata(){
+    return {
+        title:"image optimization",
+        description:"my image optimization page"
+    }
+}
