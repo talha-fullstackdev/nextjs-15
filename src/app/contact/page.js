@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
 const Contact = () => {
+  
   const router = useRouter()
   return (
     <div className='text-center mt-8'>

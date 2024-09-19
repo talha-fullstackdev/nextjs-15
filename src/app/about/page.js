@@ -6,3 +6,9 @@ const About = () => {
 }
 
 export default About
+export function generateMetadata(){
+  return{
+    title:"About page",
+    description:"Hello this is about page"
+  }
+}
