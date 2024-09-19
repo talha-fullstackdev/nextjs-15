@@ -4,5 +4,4 @@ const EmployeeDetails = ({params}) => {
   <h2>The Employee name is : {params.employeesDetails}</h2>
   </>;
 };
-
 export default EmployeeDetails;

@@ -1,15 +1,14 @@
 "use client";
 import React, { useEffect, useState } from "react";
-
 const Users = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     async function getUserData() {
-      const userData = await fetch(
+      let userData = await fetch(
         "https://jsonplaceholder.typicode.com/users"
       );
-      const actualData = await userData.json();
-      setData(actualData);
+       userData = await userData.json();
+      setData(userData);
     }
     getUserData();
   }, []);
