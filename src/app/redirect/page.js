@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 // import { redirect } from "next/navigation";
 const Redirect = () => {
-//   const [logout, SetLogout] = useState(false);
-//   if (logout) {
-//     redirect("/home");
+  //   const [logout, SetLogout] = useState(false);
+  //   if (logout) {
+  //     redirect("/home");
 
-//   }
+  //   }
   return (
     <>
       <div>Redirect</div>
