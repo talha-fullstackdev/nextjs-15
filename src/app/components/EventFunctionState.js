@@ -12,7 +12,7 @@ const EventFunctionState = () => {
     <>
       <h1 className="mt-10 text-red-600">Events Functions States</h1>
       <button
-        onClick={() => alert("clicked")}
+        onClick={() => alert(`current count value is ${count}`)}
         className="mt-10 border p-2 px-6 rounded-lg hover:bg-lime-400  hover:text-black"
       >
         alert
